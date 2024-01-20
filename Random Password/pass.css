@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    font-size: 1.4em;
+    font-family: verdana;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#head{
+    color: rgb(0, 48, 96);
+}
+#myinput{
+    border:none;
+    appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance:none;
+    -moz-appearance: textfield;
+    background: rgb(228, 228, 228);
+    padding: 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 3px;
+}
+.custom-field{
+    margin: 10px;
+    position: relative;
+    
+}
+.custom-field .placeholder{
+    position: absolute;
+    font-size: 15px;
+    left: 10px;
+    top: 50%;
+    font-family: verdana;
+    color: rgb(157, 157, 157);
+    transform: translateY(-50%);
+    transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+.custom-field input:valid +.placeholder,
+.custom-field input:focus +.placeholder{
+    top: -10px;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+.options{
+    padding: 10px;
+    width: 1000px;
+}
+.options:hover{
+    background-color: rgb(147, 213, 255);
+    border: solid 1.5px rgb(0, 157, 255);
+    color: white;
+}
+#mybtn{
+    font-size: 1em;
+    margin: 10px;
+    background-color: rgb(0, 157, 255);
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.25s;
+    color: white;
+}
+#mybtn:hover{
+    background-color: rgb(103, 197, 255);
+}
+#mybtn:active{
+    background-color: white;
+}
+#message{
+    margin: 10px;
+    max-width: 1000px;
+    word-wrap: break-word;
+}
+#message.alert{
+    background-color: rgba(209, 50, 50, 0.818);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 0.25s,opacity 0.25s ease-in-out;
+}

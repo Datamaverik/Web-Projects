@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(AOT\ background.png);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.10);
+}
+.dropbtn{
+    font-size: 2.5em;
+    font-family:Entuista Regular;
+    padding: 5px 10px;
+    margin: 5px 5px 0px 5px;
+    background-color: hsla(0, 81%, 36%, 0.812);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.dropbtn:hover{
+    background-color: hsla(0, 81%, 46%, 0.812);
+}
+.dropbtn:active{
+    background-color: hsla(0, 81%, 56%, 0.812);
+}
+.character{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.dropdown-content{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.10);
+    display: none;
+    position: relative;
+    overflow: auto;
+    padding: 5px 10px;
+    margin: 0px 5px 5px 5px;
+    width: 100%;
+    align-items: center;
+    font-family: verdana;
+    border-radius: 6px;
+}
+.dropdown-content a:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 6px;
+}
+.dropdown-content a:active{
+    background-color: hsl(0, 0%, 90%);
+}
+.dropdown-content a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+}
+.attribute-div{
+    display: flex;
+}
+.attribute-div > p{
+    padding: 5px;
+    margin: 5px;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#display-stats{
+    color: black;
+    padding: 5px ;
+    width: 100%;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px white;
+    background-color: hsla(0, 0%, 100%, 0.3);
+}
+.attribute-name{
+    font-size: 2.5em;
+    font-family: Asphalts Brush;
+}
+.attribute-value{
+    font-size: 2em;
+    font-family: noir;
+}
+.name-div{
+    font-size: 4em;
+    font-family: noir pro;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px black;
+}
+.image-div{
+    margin: 20px 0px 0px 0px;
+}

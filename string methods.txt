@@ -1,0 +1,92 @@
+charAt(index):
+
+Returns the character at the specified index.
+
+let str = "Hello";
+console.log(str.charAt(0)); // Output: H
+charCodeAt(index):
+
+Returns the Unicode of the character at the specified index.
+
+let str = "Hello";
+console.log(str.charCodeAt(0)); // Output: 72
+concat(str1, str2, ...):
+
+Concatenates two or more strings.
+
+let str1 = "Hello";
+let str2 = "World";
+console.log(str1.concat(" ", str2)); // Output: Hello World
+indexOf(searchString, position):
+
+Returns the index of the first occurrence of a specified value.
+
+let str = "Hello World";
+console.log(str.indexOf("o")); // Output: 4
+lastIndexOf(searchString, position):
+
+Returns the index of the last occurrence of a specified value.
+
+let str = "Hello World";
+console.log(str.lastIndexOf("o")); // Output: 7
+slice(start, end):
+
+Extracts a portion of a string and returns it as a new string.
+
+let str = "Hello World";
+console.log(str.slice(0, 5)); // Output: Hello
+substring(start, end):
+
+Similar to slice, but doesn't support negative indices.
+
+let str = "Hello World";
+console.log(str.substring(0, 5)); // Output: Hello
+substr(start, length):
+
+Similar to slice, but the second parameter specifies the length of the extracted part.
+
+let str = "Hello World";
+console.log(str.substr(6, 5)); // Output: World
+toUpperCase():
+
+Converts the string to uppercase.
+
+let str = "Hello";
+console.log(str.toUpperCase()); // Output: HELLO
+toLowerCase():
+
+Converts the string to lowercase.
+
+let str = "Hello";
+console.log(str.toLowerCase()); // Output: hello
+trim():
+
+Removes whitespace from both ends of the string.
+
+let str = "   Hello   ";
+console.log(str.trim()); // Output: Hello
+replace(searchValue, replaceValue):
+
+Replaces a specified value with another value in a string.
+
+let str = "Hello World";
+console.log(str.replace("World", "Universe")); // Output: Hello Universe
+split(separator, limit):
+
+Splits a string into an array of substrings based on a specified separator.
+
+let str = "apple,orange,banana";
+console.log(str.split(",")); // Output: ["apple", "orange", "banana"]
+
+padStart(targetLength, padString):
+
+Pads the start of a string with a specified character until it reaches the desired length.
+
+let str = "7";
+console.log(str.padStart(3, "0")); // Output: "007"
+padEnd(targetLength, padString):
+
+Pads the end of a string with a specified character until it reaches the desired length.
+
+let str = "42";
+console.log(str.padEnd(5, "*")); // Output: "42***"

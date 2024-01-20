@@ -1,0 +1,6 @@
+[
+    {"name":"Itadori Yuji", "age": 17, "profession":"Jujutsu sorceror", "grade":5},
+    {"name":"Megumi Fushiguro", "age": 18, "profession":"Jujutsu sorceror","grade":3},
+    {"name":"Nobara", "age": 17, "profession":"Jujutsu sorceror","grade":3},
+    {"name":"Saturo Gojo", "age": 24, "profession":"Jujutsu sorceror","grade":1}
+]

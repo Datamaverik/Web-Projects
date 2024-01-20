@@ -1,0 +1,36 @@
+.slide{
+    width: 100%;
+}
+.slider img{
+    display: none;
+}
+img.displaySlide{
+    display: block;
+    transition: opacity 0.5s ease-in-out;
+    animation: fade;
+    animation-duration: 1s;
+}
+.slider{
+    position: relative;
+}
+.slider button{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    padding: 5px 18px;
+    background-color: hsla(0, 0%, 0%, 0.60);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px black;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+@keyframes fade{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pass.css">
+</head>
+<body>
+    <h1 id="head">Password Generator</h1>
+    <label class="custom-field">
+        <input id="myinput" required>
+        <span class="placeholder">Enter length of password</span>
+    </label>
+    <div class="options">
+        <input id="lowercase" type="checkbox">
+        <label for="lowercase">Include Lower Case Characters</label>
+    </div>
+    <div class="options">
+        <input id="uppercase" type="checkbox">
+        <label for="uppercase">Include Upper Case Characters</label>
+    </div>
+    <div class="options">
+        <input id="numbers" type="checkbox">
+        <label for="numbers">Include Numbers</label>
+    </div>
+    <div class="options">
+        <input id="symbols" type="checkbox">
+        <label for="symbols">Include Symbols</label>
+    </div>
+    <button id="mybtn" onclick="Generator()">Submit</button>
+    <div id="message"></div>
+    <script src="pass.js"></script>
+</body>
+</html>

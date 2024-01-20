@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="RPSGame.css">
+</head>
+<body>
+    <h1 id="title">Rock-Paper-Scissor</h1>
+    
+    <div id="container">
+        <div id="choices">
+            <button class="buttons" id="rock" onclick="playGame(1)">✊</button>
+            <button class="buttons" id="paper" onclick="playGame(2)">🖐️</button>
+            <button class="buttons" id="scissor" onclick="playGame(3)">✌️</button>
+        </div>
+    
+        <div class="texts" id="playerDisplay">
+            PLAYER:
+        </div>
+        <div class="texts" id="computerDisplay">
+            COMPUTER:
+        </div>
+        <div class="texts" id="result">
+            It's a tie!
+        </div>
+    </div>
+    
+    <script src="RPSGame.js"></script>
+</body>
+</html>

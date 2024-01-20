@@ -1,0 +1,17 @@
+#mybtn{
+    font-size: 2em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.25s,  box-shadow 0.25s;
+}
+.enabled{
+    background-color: hsl(198, 100%, 50%);
+    color: white;
+}
+.hover{
+    background-color: hsl(198, 100%, 70%);
+    box-shadow: 2px 2px 2px hsl(0, 0%, 20%);
+    color: white;
+}

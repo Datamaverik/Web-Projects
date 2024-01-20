@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(Cement\ texture.jpg);
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    margin: none; 
+}
+#title{
+    background-color: hsla(0, 0%, 100%, 0.3);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Verdana;
+    text-shadow: 2px 2px 1px white;
+}
+#container{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: hsla(0, 0%, 80%, 0.5);
+}
+.buttons{
+    font-size: 4em;
+    margin: 10px;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 20%);
+    cursor: pointer;
+    border-radius: 5px 20px;
+}
+#choices{
+    margin: 10px;
+}
+.texts{
+    margin: 5px;
+    padding: 10px;
+    font-family: noir pro;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px white;
+    transition: 0.25s ease-in-out;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    font-family: Asphalts Brush;
+    font-size: 3.5em;
+}

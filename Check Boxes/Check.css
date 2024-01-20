@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    font-size: 2em;
+    font-family: Verdana;
+
+}
+#mycheckboxL1{
+    background-color: rgb(201, 68, 48);
+    color: white;
+    border-radius: 5px;
+    padding: 1px 5px;
+}
+#mybtn{
+    font-size: 1em;
+    color: white;
+    background-color: rgb(66, 108, 134);
+    border-radius: 5px;
+    padding: 3px 10px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#mybtn:hover{
+    background-color: rgb(1, 47, 100);
+}
+
+#divid1{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+#divid1:hover{
+    box-shadow: 4px 5px 6px -1px #b4b4b4;
+}
+#divid2{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+#divid2:hover{
+    box-shadow: 4px 5px 6px -1px #b4b4b4; 
+}
+#divid3{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+#divid3:hover{
+    box-shadow: 4px 5px 6px -1px #b4b4b4;
+}
+
