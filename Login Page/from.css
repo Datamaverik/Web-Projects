@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+body{
+    
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(Forest.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 400px;
+    text-align: center;
+    font-family: 'roboto','noir';
+}
+.heading{
+    opacity: 0;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+input{
+    opacity: 0;
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: hsla(0, 0%, 100%, 0.3);
+    border: none;
+    color: white;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+input::placeholder{
+    color: white;
+}
+input:focus,
+.submit-btn:hover{
+    background: white;
+    color: black;
+}
+.submit-btn{
+    opacity: 0;
+    width: 15%;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: hsla(0, 0%, 100%, 0.3);
+    border: none;
+    color: white;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+.submit-btn:active{
+    color: white;
+}
+.link{
+    opacity: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.5);
+    transition: 0.5s ease-in-out;
+}
+.link:hover{
+    color: white;
+}
+.alert-box{
+    
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 150px;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    background: hsl(0, 97%, 65%);
+    border-radius: 10px;
+    color: white;
+    font-family:'roboto','noir' ;
+     text-align: center;
+     transition: 1s;
+}
