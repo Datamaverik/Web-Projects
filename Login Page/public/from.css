@@ -98,3 +98,6 @@ input:focus,
      text-align: center;
      transition: 1s;
 }
+.nameContainer{
+    display: flex;
+}
